@@ -27,7 +27,7 @@ body{
 #list{
     margin-left: 14%;/*temporary measure to prevent list's dots from overlapping with table of contents*/
 }
-div h2 {
+div h2,h3,h4,h5 {
     text-align: center; 
 }
 
