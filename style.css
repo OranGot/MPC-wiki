@@ -1,0 +1,33 @@
+#overview{
+    border: 1px solid;
+    width: 15%;
+    height: 750px;
+    background-color: rgb(248, 253, 253);
+    float: right;
+    font-size: 15px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+#toc{
+    border: 1px solid;
+    width: 15%;
+    background-color: rgb(248, 253, 253);
+    float: left;
+    font-size: 15px;
+    height: 400px;
+    margin-left: auto;
+    padding: 3px;
+    box-sizing: border-box; 
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#list{
+    margin-left: 14%;/*temporary measure to prevent list's dots from overlapping with table of contents*/
+}
+div h2 {
+    text-align: center; 
+}
+
