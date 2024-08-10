@@ -4,15 +4,19 @@
     height: 750px;
     background-color: rgb(248, 253, 253);
     float: right;
+    clear: both;
     font-size: 15px;
     padding: 3px;
     box-sizing: border-box;
+    top: 100px;
 }
 #toc{
+
     border: 1px solid;
     width: 15%;
     background-color: rgb(248, 253, 253);
     float: left;
+    clear: both;
     font-size: 15px;
     height: 400px;
     margin-left: auto;
@@ -30,4 +34,3 @@ body{
 div h2,h3,h4,h5 {
     text-align: center; 
 }
-
