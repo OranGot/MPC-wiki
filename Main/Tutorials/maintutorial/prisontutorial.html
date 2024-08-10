@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<head>
+    <title>Prison Tutorial</title>
+    <link rel="icon" href="https://cdn3.emoji.gg/emojis/7504_Iron_Bars.png">
+    
+</head>
+<style>
+    .center{
+        text-align: center;
+    }
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>
+<body>
+    <div style="display: flex; justify-content: space-between; width: 100%;">
+    <a href="https://orangot.github.io/MPC-wiki/Main/Tutorials/Tutorials_contents.html" style="display: inline-block;">More Tutorials</a>
+    <p>Tutorial by AntiBlaze</p>
+</div>
+<hr>
+    <div style="width: 60%;margin: 0 auto;border-style:solid;border-radius: 5px;background-color: beige;">
+        <h3 style="text-align: center;">This page is in-development!</h3>
+        <p style="text-align: center;">It is not complete. Please add any missing links, and report issues. Thank you.</p>
+    </div>
+
+
+    <h1 class="center" id="top">How to build a prison</h1>
+    <p class="center">By AntiBlaze</p>
+
+    <p>
+        Please note that this is the general tutorial. Specific tutorials will be on the main tutorials page.
+    </p>
+
+    <div style="border-style:solid;border-radius: 5px;display: inline-block;">
+        <p class="center">Table of Contents</p>
+        <a href="#top">&nbsp;- Top</a>
+        <br>
+        <a href="#location">&nbsp;- Location</a>
+        <br>
+        <a href="#cell">&nbsp;- Cell</a>
+        <br>
+        <a href="#decon">&nbsp;- Decon</a>
+    </div>
+
+    <h2 class="center" id="location">Location</h3>
+        <p>The location is very important for a prison. This sometimes is also influenced by the type of prison. For example, if the prison is an involuntary prison, than the location would be the targets logoff location. 
+            Oftenly a prison would be built in the spawn chunks, the 19X19 chunk area around the world spawn<sup>1.20.4 and under</sup> or 3X3.<sup>1.20.5+</sup> The spawn chunks have many advantages, including that they are always 
+            loaded, which stops light suppression and chunk skipping. However, because of 1.20.5, spawn chunk prisons had to become smaller. Spawn chunk prisons are also vulnerable to a 7th class 
+            escape.<sup><a href="https://www.youtube.com/watch?v=7Q4_LY5wTAM&t=612s">video</a></sup> The dimension of a prison also matters. 
+            A nether roof prison has many pros and cons compared to an overworld prison, as does an end prison, however, an end prison is mostly in the overworld, except for the cell.
+        </p>
+    
+    <h2 class="center" id="cell">The Cell</h2>
+    <h4><a href="https://orangot.github.io/MPC-wiki/Main/Tutorials/cell.html">Main Article<sup>Add later</sup></a></h4>
+    <p>The cell is the most crucial part of a prison. It holds the prisoner(s). A prison may have multiple cells, to hold multiple prisoners.
+    </p>
+    <h4 class="center">Some types of cells</h4>
+    <br>
+    <h5>Invulnerable End Crystal</h5>
+    <p>The invulnerable end crystal cell does <b>NOT</b> work in the nether. The cell is filled with invulnerable end crystals, which 
+    are end crystals that cannot be broken in survival. They are created like <a href="https://www.youtube.com/watch?v=h4xR_X4PrUw">this</a>, or by 
+    using this 
+    <a href="javascript:void(0)" onclick="navigator.clipboard.writeText('/execute align xyz run summon minecraft:end_crystal ~ ~ ~ {Motion: [0.0d, 0.0d, 0.0d], Invulnerable: 1b, BeamTarget: {X: 0, Y: 128, Z: 0}, OnGround: 0b, Air: 300s, PortalCooldown: 0, Rotation: [0f, 0.0f], ShowBottom: 1b}');"> 
+        command.</a> This prevents the prisoner from placing or destroying blocks.</p>
+    <br>
+    <h5>Cobblestone or Basalt generator cell</h5>
+    <p>This cell has walls made up of either cobblestone or basalt generators.(Basalt for nether.) This is done so when a prisoner breaks 
+        the wall, the hold in the wall gets replaced. Make sure the generators cover every wall ceiling and floor. You may also add detectors to detect if somethign was broken.
+    </p>
+    <figure><img src="images/cobble.png" alt="Cobblestone generator">
+        <figcaption><small><small>Cobblestone generator. Black is obsidian, blue is water, orange is lava, and gray is cobblestone.<br> Place a piston behind cobblestone and make it repeatedly 
+            fire to make a regenerating row of cobblestone.</small></small></figcaption>
+    </figure>
+    <figure><img src="images/basalt.png" alt="Basalt generator">
+        <figcaption><small><small>Basalt generator. Black is obsidian, blue is blue ice, orange is lava, and gray is basalt.<br> Place a piston behind basalt and make it repeatedly fire to make a regenerating row of basalt.</small></small></figcaption>
+    </figure>
+
+    <h5>Moving blocks</h5>
+    <p>This type of cell has walls and floors(and maybe a cieling) with blocks that constantly move, so the prisoner cannot break any block. The breaking will be reset every time the blocks move. 
+        <b>IMPORTANT!</b> Make sure the block types are alternated, otherwise the breaking will be kept.</p>
+
+        <figure>
+            <img src="images/movingcell.png" alt="Cell">
+            <figcaption><small><small>The cell. Note how the walls of the cell are alternated, and the pistons are on a loop, triggering slightly after the last.</small></small></figcaption>
+        </figure>
+    <br>
+    <h5>Detecting cell</h5>
+    <p>In this cell, the faces of the cell are being detected, usually by observers. If the cell is broken, than the suicide is triggered, banning the whole prison.</p>
+    <br><br>
+    <p>There are many different types of cells, and these are only some of them. More are in the <a href="https://orangot.github.io/MPC-wiki/Main/Tutorials/cell.htm">cells<sup>Add later</sup></a> article.</p>
+    <br>
+    <br>
+    <h2 class="center" id="decon">Decon</h2>
+    <p>Decon, or decontainment, is a series of hallways(or rooms) to ensure the prisoner does not bring any items or any invisible players. Decons are not used in an involuntary prison. Below will show how to build a decon.
+         Please note that to prevent the end exploit, respawn the ender dragon when performing the decon.
+    </p>
+    <br>
+    <h5>Step 1 -- Entrance</h5>
+    <p>Entrances to a prison are usually nether portals. For an overworld prison, builders would normally link 2 portals in the overworls to one in the nether, with one overworls portal outside the prison and one on the inside.(See diagram below) 
+        A nether prison would have a portal in the overworld go directly into the nether prison portal. The portal in the prison should also be within range of a temporary area ban, to check for invisible players. 
+        The ban is turned on, then the portal is activated. Once the prisoner or visitor comes through, the guard should check the chat for any logoff messages out of place. Then the ban is deactivated and the portal is closed.
+    </p>
+
+    <figure>
+        <img style="width:30%;"src="images/portaldiagram.png" alt="portal diagram">
+        <figcaption>Portal diagram for overworld prisons.</figcaption>
+    </figure>
+    <br>
+    <h5>Step 2 -- First decon hallway</h5>
+    <p>Decons should have 2 stages of decons, to prevent a visitor from destroying the prisoner bed. Decons should have a control room(unless minimalistic) and a bed. The prisoner should set their spawn on the bed, 
+        then the guard will kill the prisoner. Via a respawn system, the prisoner should respawn in the next Decon. A decon may have some added security measures, if needed, such as
+    </p>
+    <ul>
+        <li>A one player door, if no portal ban is possible</li>
+        <li>An inventory check, which involves filling a players inventory with unstackable items, to see if their inventory is truly clear</li>
+        <li>And other things</li>
+        </ul>
+    <br>
+    <h5>Step 3 -- Second decon hallway</h5>
+    <p>This, unless a redundant prison, should be the last decon stage. It's bassicly the same thing as the first decon, except at the end of the decon is the prisoner bed. The bed should have a retractable block blocking the bed to protect 
+        it. Via a respawn system, usually the <a href="https://www.youtube.com/watch?v=IqrQ9Xess0k">squilly glitch</a>, to the cell.
+    </p>
+        
+   
+   
+</body>
+
