@@ -31,3 +31,26 @@ div h2,h3,h4,h5 {
     text-align: center; 
 }
 
+.collapsible {
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    outline: none;
+}
+
+.collapsible:hover {
+    background-color: #555;
+}
+
+.active > img {
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
