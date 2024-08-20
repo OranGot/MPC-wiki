@@ -3,24 +3,29 @@ IMPORTANT!!!!!!! you MUST put the link to your file in the list part of contents
 otherwise the file will be inaccessible 
 
 -->
-<title>sample_contents.html</title><!--place the name of the folder your creating + _contents.html-->
-<link rel = "stylesheet" href ="../style.css"> <!--you must include an absolute path to the stylesheeet even if you
-aren't using it at all or make your own if you need it-->
-<body><!--body tags for main part of text -->
-    <a href = "../index.html">mainpage</a><!-- in href you must put the path to the contents of parent folder(usually ../somefile.html) 
-    and in between the tags put the name of that file, in my case its index file aka mainpage-->
-    <h1>Example</h1>
-    <div>this is sample </div>
-    <!-- you also need to add a short description of the category more on that in sample article-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>sample_contents.html</title><!--place the name of the folder your creating + _contents.html-->
+        <link rel = "stylesheet" href ="../style.css"> <!--you must include an absolute path to the stylesheeet even if you
+        aren't using it at all or make your own if you need it, but please rather use the main one-->
+        <script src = "../main.js"></script>
+    </head>
+    <body onload="misc.setupSite()"><!--body tags for main part of text -->
+        <a href = "../index.html">mainpage</a><!-- in href you must put the path to the contents of parent folder(usually ../somefile.html) 
+        and in between the tags put the name of that file, in my case its index file aka mainpage-->
+        <h1>Example</h1>
+        <div>this is sample </div>
+        <!-- you also need to add a short description of the category more on that in sample article-->
 
-    <h1>example</h1><!-- this is h1 tags which are the title of the current directory, in my case example-->
-    <ul><!-- pair of <ul> tags is needed to create an unordered list where you can add .html files of the directory 
-        you are in. -->
-        <li><a href = "sample_article.html">sample article</a></li><!-- here is a list element used to 
-        reference the only other file in this directory: sample_article.html you must do the same and reference ALL files-->
+        <h1>example</h1><!-- this is h1 tags which are the title of the current directory, in my case example-->
+        <ul><!-- pair of <ul> tags is needed to create an unordered list where you can add .html files of the directory 
+            you are in. -->
+            <li><a href = "sample_article.html">sample article</a></li><!-- here is a list element used to 
+            reference the only other file in this directory: sample_article.html you must do the same and reference ALL files-->
 
 
-    </ul>
+        </ul>
 
-</body>
-
+    </body>
+</html>
