@@ -4,7 +4,7 @@ This guide walks you through the initial setup phase of the repository on your m
 
 **This is a team project!!** Join [the discord](https://discord.gg/Jea7Sh5YCb) server to work with others, discuss how to improve the website, and ask questions! If you have trouble during this setup process, ask for help in the server.
 
-**Summary of the setup process below for experienced users:** Install VSCode and Fork the repository. To view the project, you can right click the index.html, select copy path, and paste it into your browser. **All these steps are explained in great detail below:**
+**Summary of the setup process below for experienced users:** Install VSCode and Fork the repository. To view the project, you can right click the index.html, select copy path, and paste it into your browser, if you need the themes to work, you will need to test it on a local server, you can easily create one if you have python by using `python -m http.server` in CMD. **All these steps are explained in great detail below:**
 
 <img width="300" alt="copy path" src="./resources/copy_path.png">
 
@@ -57,9 +57,17 @@ Bofore you start making changes to the repository, make sure to create a new bra
 
 <img width="700" alt="source control" src="./resources/create_branch.png">
 
+### Testing ###
+
+After you have made some changes to the html (go to dev_only for examples of files), you might want to see how it looks. You can do so by right clicking the index.html, select copy path, and paste it into your browser.
+<img width="300" alt="copy path" src="./resources/copy_path.png">
+
+if you need the themes to work, you will need to test it on a local server, you can easily create one if you have python by using `python -m http.server` in CMD and go to `http://localhost:8000/`.
+
+
 ### Commiting ###
 
-After you have made some changes to the code, you can push those changes to your personal fork by going to the Source Control tab.
+Now that you tested it, you can push those changes to your personal fork by going to the Source Control tab.
 
 <img width="100" alt="source control tab" src="./resources/source_control_tab.png">
 

@@ -1,28 +1,33 @@
-<!--I will assume you read the text from sample_contents.html because I aint rewriting all of that-->
-<title>sample article</title>
-<link rel = "stylesheet" href ="../style.css"><!--you must include a link to the general stylesheet for proper styling-->
-<link rel ="icon" type ="image/png" href = "../pictures/Logo/clear.png">
-<a href = "sample_contents.html">sample contents</a><!--you MUST include link to previous contents file-->
-
-<body>
-    <!--table of contents(toc) is a specially styled part to be suitable for making a table of contents-->
-    <div id = "toc">
-        <ul>
-            <li><a href = #sampletitle>sampletitle</a></li>
-            <li><a href = #subtitle>subtitle</a></li>
-        </ul>
-    </div>
-
-
-
-    <h1 id = "sampletitle">sample title</h1><!-- title to tell people whats in the article-->
-    <hr><!--IMPORTANT!!!! how to use hr? you need to use hr before every sub title to separate text parts-->
-    <h2 id = "subtitle">sub title</h2><!-- smaller title to identify subtitles
-    it's recommended you make as many of them as you can for clearer organisation of text-->
-    <div>blah blah blah 
-        blah blah <a href = ""></a> <!-- thats how you add links for more info see sample_contents.html-->
+<!DOCTYPE html>
+<html lang="en">
+    <!--I will assume you read the text from sample_contents.html because I aint rewriting all of that-->
+    <head>
+        <title>sample article</title>
+        <link rel = "stylesheet" href ="../../style.css"><!--you must include a link to the general stylesheet for proper styling-->
+        <link rel ="icon" type ="image/png" href = "../pictures/Logo/clear.png">
+        <script src = "../../main.js"></script>
+    </head>
+    <body onload="misc.setupSite()">
+        <a href = "sample_contents.html">sample contents</a><!--you MUST include link to previous contents file-->
+        <!--table of contents(toc) is a specially styled part to be suitable for making a table of contents-->
+        <div id = "toc">
+            <ul>
+                <li><a href = #sampletitle>sampletitle</a></li>
+                <li><a href = #subtitle>subtitle</a></li>
+            </ul>
+        </div>
 
 
-    </div><!-- this is a text part you MUST use div tags because of their versatility. 
-    WARNING!!! if you enter enter it won't register it's used specifically to make code more readable and organised-->
-</body>
+
+        <h1 id = "sampletitle">sample title</h1><!-- title to tell people whats in the article-->
+        <hr><!--IMPORTANT!!!! how to use hr? you need to use hr before every sub title to separate text parts-->
+        <h2 id = "subtitle">sub title</h2><!-- smaller title to identify subtitles
+        it's recommended you make as many of them as you can for clearer organisation of text-->
+        <div>blah blah blah 
+            blah blah <a href = ""></a> <!-- thats how you add links for more info see sample_contents.html-->
+
+
+        </div><!-- this is a text part you MUST use div tags because of their versatility. 
+        WARNING!!! if you enter enter it won't register it's used specifically to make code more readable and organised-->
+    </body>
+</html>

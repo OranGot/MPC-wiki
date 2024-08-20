@@ -1,33 +1,45 @@
+body {
+    margin: 1%;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+}
+
 #overview{
-    border: 1px solid;
-    width: 15%;
-    height: 750px;
-    background-color: rgb(248, 253, 253);
+    height: 75vh;
     float: right;
-    font-size: 15px;
-    padding: 3px;
-    box-sizing: border-box;
     top: 100px;
 }
 #toc{
-
-    border: 1px solid;
-    width: 15%;
-    background-color: rgb(248, 253, 253);
     float: left;
-    font-size: 15px;
     height: 400px;
     margin-left: auto;
-    padding: 3px;
-    box-sizing: border-box; 
 }
-body{
+
+#toc, #overview, #toc *, #overview *{
+    background-color: rgb(248, 253, 253);
+}
+
+#toc, #overview {
+    border: 1px solid;
+    border-color: black;
+    width: 15%;
+    font-size: 15px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+hr {
+    color: white;
+}
+
+*{
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
+    background-color: white;
+    color: black;
 }
 #list{
-    margin-left: 14%;/*temporary measure to prevent list's dots from overlapping with table of contents*/
+    margin-left: 15vw;/*temporary measure to prevent list's dots from overlapping with table of contents*/
 }
 div h2,h3,h4,h5 {
     text-align: center; 
@@ -38,11 +50,14 @@ div h2,h3,h4,h5 {
     border: none;
     text-align: left;
     outline: none;
+    color: white;
 }
 
+/*
 .collapsible:hover {
     background-color: #555;
 }
+*/
 
 .active > img {
     -webkit-transform: scaleY(-1);
@@ -54,4 +69,5 @@ div h2,h3,h4,h5 {
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
+    color: black;
 }
