@@ -25,6 +25,7 @@ const misc = (function(){
   function setupSite(){
     prepareCollapsible()
     siteTheme.updateOnPrefference()
+    changeThemeTo("dark")
   }
 
   return Object.freeze({
