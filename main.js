@@ -25,6 +25,7 @@ const misc = (function(){
   function setupSite(){
     prepareCollapsible()
     siteTheme.updateOnPrefference()
+    
   }
 
   return Object.freeze({
@@ -48,7 +49,7 @@ class Theme {
 var siteTheme = (function() {
 
   const themes = {
-    "dark": new Theme("#2b2b2b","#787878","#3d3d3d","#919191","#141414","#2a2a38"),
+    "dark": new Theme("#2b2b2b","#e3e3e3","#3d3d3d","#919191","#141414","#2a2a38"),
     "light": new Theme("white","black"),
     "old light": new Theme("white","black"),
     "default": new Theme("white","black")
