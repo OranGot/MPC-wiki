@@ -1,0 +1,42 @@
+Withers
+Patch: memory bans, hypothetical force unloaded chunks, possibly sound suppression, possibly a perfect tts defense, bedrock
+——
+RBB
+Patch: tts chunk defense, paper
+——
+Warp Potions
+Patch: Pot bans, sign bans, memory bans (non entity bans basically)
+——
+Warp ender pearls
+Patch: Sound suppression, sculk detecting damage/teleporting (whenever they fix that)
+——
+Dragons
+Patch: 1.21 I think
+——
+Chunkskipping
+Patch:
+Force loaded chunks (like spawnchunks)
+——
+TTD
+Patch: ttd detector
+——
+Update skipping/Update freezing
+Patch: Don’t use things that require block updates
+——
+TTS
+Patch: Don’t rely on redstone, falling blocks, liquids, or entities.
+——
+Void Queuing
+Patch: possibly compression bans, possibly chunk bans, memory bans
+——
+Trident Exploit
+Patch: Allay bans
+——
+Warp Arrows
+Patch: Put ban mobs in glass
+——
+Stasis Chambers
+Patch: paper
+——
+Ping abuse
+Patch: Possibly compression bans (at least weaker), sign bans (at least weaker), memory bans
