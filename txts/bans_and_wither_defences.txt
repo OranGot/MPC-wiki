@@ -1,0 +1,268 @@
+During The Rain of the MPC we deiscoverd many diffrent ways to kick people without being a server owner
+
+**Book Banning**
+
+*Basic Item Ban*
+*Piglin Ban*
+*Fox Ban*
+*Allay Ban*
+*Zone Protection Item*
+
+**Chunk Bans**
+
+*Furnace Ban*
+*Sign Ban*
+*Pot Ban*
+
+**Server Side Ban**
+
+*Paper Memory Ban*
+*Spigot/Vanilla Memory Ban*
+*Sound Surpression Ban*
+*Memory Void*
+
+**Hoax Bans**
+
+*Chest bans*
+*Beacon Ban*
+*Map Ban*
+*Void Ban*
+
+
+
+Article For Item Bans
+
+** Basic Item Bans**
+
+Over time there have been many changes to how bans work and diffrent designs we will focus on the 3 biggest changes and and the best ban mashine
+
+*1.11*
+This version first made item bans posseble (Item bans were discoverd by Jumbo_Warrior in early 2017.) the shulker box made it posseble to have over 2 mb in one item wich is more then servers were willing to send you so you would get kicked. This was done by putting 27 books with 100 pages of high data characters (one like this 􏿿) and then break the shulker so it drops now the nbt data will be send to you and kick in a range of 31.5  you from the server by building a clock with droppes and hoppers resets the 5 minute despawn timer
+
+*1.18*
+This version changes the range of item bans to a radius because area bans got changed from squere to circular also in this version papermc decided to patsh area bans
+
+*1.21*
+This version added an packet fixer to minecraft vanilla wich lead to normal item bans with just over 2mb of data not having enouth data to kick people from the server because now 8mb was needed to bypass the packet fixer, but dont worry there is still a way to item ban people with just 9 books normaly because you are useing the same charcter minecraft can compress it, but by useing a client side recurce pack wich can automaticly write write random high data charakters its still posseble to item ban you only need to change the books
+
+
+
+**Piglin Ban**
+
+Over time there have been many changes on how bans work to day we focus on the piglin ban a type of mob ban and the 4 most important changes
+
+*1.16*
+Added first piglins together with baby piglins wich have the ability to hold ban shulkers and kick anyone in a 47.5 block range they were discoverd in middle of 2021 by thubb
+
+*1.18*
+In 1.18 the ban shape was changed from a squere to a circle and also Papermc patshed area bans
+
+*1.20.2*
+1.20.2 changed the ban range from 47.5 blocks to 31.5 blocks
+
+*1.21*
+You now needed compression ban shulkers for the area ban to work
+
+
+
+**Fox Ban**
+
+Over time there have been many changes on how bans work today we focus on the fox ban a type of mob ban and the 4 most important changes
+
+*1.14*
+First added foxes making fox bans possable because they can hold ban shulkers in thier mouth it has a ban radius of 47.5 and was discovered by TheArchitectMC in late 2021
+
+*1.18*
+In 1.18 the ban shape was changed from a squere to a circle and also Papermc patshed area bans
+
+*1.20.2*
+1.20.2 changed the ban range from 47.5 blocks to 31.5 blocks
+
+*1.21*
+You now needed compression ban shulkers for the area ban to work
+
+
+
+**Allay Ban**
+
+Over time there have been many changes on how bans work and many diffrent ban mashine designhs this time we will focus on the Allay item ban and the 2 most important changes
+
+*1.19*
+First added allays making allay bans possable because when allays get near their owner or hear a note blocks they drop the shulker they kept in their inventory kicking all people in a 31.5 block radius when it was discovered by dwinkly and theArchietectMC in the middle of 2023 it wasnt warp arrow prof nor tile tick delay prof this was later fixed by rzghuul and sampleless the design for the allay ban you can find in this vidio around 3:30 :https://youtu.be/eJ5j8Pf08gs
+
+*1.21* 
+You now needed compression ban shulkers for the area ban to work
+
+
+
+**Zone Protection Item**
+
+Over time there have been many changes on how bans work and now we are covering the ZPI also known as Zone Protection Item and the 3 most important changes
+
+*1.11*
+First made ZPI's possable on Papermc and Papermc only with very spesific amount of data it was discoverd by jerrylum in the middle of 2021 explaination : https://youtube.com/shorts/dtEvcrvDmv0?si=rN6OrZHfRIJgH3PE
+
+*1.18*
+PaperMC patshed area bans patshing the ZPI because it only worked on PaperMC
+
+*1.21*
+With compression bans new ways to make a ZPI were found making ZPI's possable on Vanilla and spigot
+
+
+
+**Furnace Ban**
+
+Furnace bans are realy a strange thing so lets explain them
+
+*1.4.2*
+Added anvils making it possable to rename items and renaming furnaces and nameing them 🂺 as often as you can and placeing them in a 16x16x255 (place it in 1 chunk) and restarting the server kicks all people in a minimum of 3 and a maximum of server simulation distance +1 chunk range
+
+*1.18*
+Made Furnace ban not working
+
+
+
+**Sign Ban**
+
+*1.14*
+First added sign bans build a 16x16x10 area filled with signs with the sign ban character lines the rest works like furnace bans the diffrence beeing that the very corner chunk is missing it was discovered by Capitan Sparkels
+
+*1.20*
+Made signs double sided wich reduced the sice to 16x16x5
+
+*1.21*
+Made it need a 16x16x13 area
+
+
+
+**Pot Ban**
+
+*1.20.4*
+First added pot bans but they werent discoverd yet they also were realy useless because you'd need to use zpi books (this part was later discoverd by MichalMilkman/Lumi)
+
+*1.21*
+Here it was first discoverd by rzghuul in the 7th month of 2024 it has a 4 chunk radius (chunkbased) but with the very corner chunk missing you can just put a 1.21 ban item in a pot the rest of the behavior is like sign bans
+
+
+
+**Paper Memory Ban**
+
+you build 1 layer of ban book filled chest minecarts you wait for a autosave unload the chunk and if it ever gets loaded again (12 chunk chunkbased range) the server get chrashed
+
+
+
+**Spigot/Vanilla Memory Ban**
+
+you build 1 layer of ban book filled contayners (any) you wait for a autosave unload the chunk and if it ever gets loaded again (12 chunk chunkbased range) the server get chrashed
+
+
+
+**Sound Surpression Ban**
+
+*1.21*
+Added them and they had many abilitys one of them beeing crashing any server in the if the hearing range gets triggerd
+
+*1.21.1*
+Patshed it
+
+
+
+**Menory Void**
+
+A memory void is what happens if you try to build a Spigot/Vanilla Mem ban on paper it works in the same way but is highly voulnerable to chunk regen
+
+
+
+**Chest Bans**
+
+*1.16*
+Here they were first "Discoverd" by Miningblob but later disproven to work
+
+
+
+**Beacon Ban**
+
+This Is only a client side lag mashine with limited radius do I need to explain why this is bad IT DOES NOT BAN
+
+
+
+**Map Ban**
+
+This Is only a client side lag mashine with limited radius do I need to explain why this is bad IT DOES NOT BAN
+
+
+
+**Void Bans**
+
+it  takes 30 seconds to activate and has a way to smol ban radius to be usefull plus it can be bypassed
+scince 1.21 it has been realy incosistant
+
+
+
+
+
+
+
+updated article by
+# Rzghul
+https://discord.com/channels/1263906188467109918/1263910925837012992/1277749741773656074
+>>> How To build a good overworld wither defence to build a atleast decent wither defence you should follow these rules
+
+Rule 1
+No symmetry in terms of groups of 3 Blocks.
+
+Rule 2
+The the centere blocks of the witherbore should be forced to hit lava
+
+Rule 3
+There should atleast an equal amount of lavasorces and watersorces
+Better would be more lavasources
+
+Rule 4
+No 1x1 Lava sources
+
+Rule 5
+if you have Flowing water have extra protection aganst Fast bores
+
+Rule 6
+Have lava sources that don't have any water diagonal to them
+(this only works if water does not touch the floor)
+
+Rule 7
+ have atleast one lava scorce in the path of the witherbore wich does not have water infront of it
+
+Rule 8
+Test your wither defences
+
+Rule 9
+Dont trust dwinkley (/J)
+
+
+
+
+**The Best Wither Defences**
+
+**In The Overworld**
+
+*Revived Atom Grid (rag)*  -by Rzghuul
+ This Wither Defence is your best bet if your wither defence does not go to the build limit because it is very preperation resistant
+
+*Matrix Grid* -by Avatardotpng
+This Wither Defence is your best betif your wither defence does go to the build limit because of its high regeneration it can stop the 20hz wither cannon (if the wither defence is around 3 chunks)
+
+**In The Nether**
+
+*Observed Grid* -Rzghuul
+This Wither Defence Is the only working wither defence in the nether at the point of writing this
+
+To get regular updates to wither defences join rzghuuls discord server: https://discord.gg/djRAv33vtm
+
+
+
+The Rules Of Wither Defences.
+
+The Hyperthoedical Strenth principle.
+
+
+
+

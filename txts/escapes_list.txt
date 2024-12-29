@@ -1,0 +1,60 @@
+Solo Escape Tech:
+Item Smuggling
+Cat Exploit
+Exploiting Flaws In Respawn Glitch
+Stasis Chamber
+Exploiting regen cells
+Exploiting entity cells (armor stands, end crystals, chest minecarts)\
+Breaking respawn point
+Making a portal in cell
+
+Visiting Escape Tech:
+End Exploit/1TEE
+Item Smuggling
+Invis player
+Banning guards during visit
+Sabotaging redstone
+Ender pearl exploit
+
+Brute Force Escape Tech:
+Wither bore/drill/cannon
+Tnt minecarts
+Flying machines
+Other explosives
+Chunkskipping
+Warp Arrows
+Trident Item Teleportation
+Perception box bypass
+Wardens
+Remote bedrock breaking
+Entity Order Suppression/Void Queuing
+
+Digging Straight Down Tech:
+Hammer cannons
+Chorus fruit
+Gaps between areaban and roof
+Tps abuse
+TTS/General Chunk Abuse
+Exploiting pushable blocks
+Enderman exploit
+
+Going From Below Tech:
+Squilly end exploit
+Pearl glitching
+Item elevation/Machine clogging
+CST
+Chorus fruit
+A lot of dsd escapes also work here
+
+Portal Escape Tech:
+Exit portal abuse
+Unbanned trap portal abuse
+Portal generation (sometimes w/ flooding)
+Destroying trap portals
+Blocking of regening trap portals
+Blocking off the signals of detecting portals
+
+7th Class Tech:
+Logging into spawn prisons before completion
+Logging into end prison cell before completion
+Any other use of this class isn't viable
